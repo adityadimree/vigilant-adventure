@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+
+<body>
+    <form action="url" method="GET">
+        <label for="Item name">What item do you wish to buy ? </label>
+        <input type="text" placeholder="Item Name" name="Item name" id="Item name"><br />
+        <label for="quant">How much pieces ?</label>
+        <input type="text" placeholder="Item quantity" id="quant"><br />
+
+        <input type="reset" value="yo !">
+
+        <button>Buy !</button>
+        <select name="dishes" id="" multiple>
+            <option value="fries">veg burger</option>
+            <option value="pizza">donut</option>
+        </select>
+        <input list="dishes" name="dish">
+        <datalist id="dishes">
+            <option value="Fries">Fries</option>
+            <option value="Hamburger">Hamburger</option>
+        </datalist>
+        <br />
+        <input type="range" name="cheese quantity" id="cheesequant" min="1" max="11">
+        <label for="cheesequant">How much cheese ?</label>
+        <br />
+        <input type="range" name="spice quantity" id="spicequant" min="0" max="10" value="9" step="1">
+        <label for="spicequant">How much spice would you like??</label>
+        <p>Sign in to your account:</p>
+        <br />
+         <label for="123">Your name : </label>
+         <input type="text" placeholder="Your Name" id="123">
+         <input type="image" id="Button">
+    </form>
+</body>
+
+</html>

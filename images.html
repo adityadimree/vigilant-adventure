@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="https://images.pexels.com/photos/2522660/pexels-photo-2522660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=11" width="400px" alt="no image">
+    <img src="./html-spider-an.jpeg1" width="400px" alt="no image">
+    <picture>
+        <source media="(min-width: 650px)" srcset="" width="400px"/> 
+        <source media="(min-width: 450px)" srcset="" width="400px"  />
+        <img src="html-spider-man1.jpeg" alt="no image"><!--When the above two do not work then this image will come into action -->   
+    </picture>
+    <img src="html-spider-man.jpeg" usemap="#image&ap;map">
+
+    <map name="image&ap;map">
+        <area onclick="two()" target="" alt="" href="" coords="583,1010,455,584" shape="rect">
+        <area onclick="one()" target="" alt="" hef="" coords="245,216,2,296" shape="rect">
+    </map>
+<script>
+    function one(){
+        alert("Your clicked on power !")
+    }
+    function two(){
+        alert("You clicked on responsibility")
+    }
+</script>
+</body>
+    
